@@ -10,11 +10,14 @@ def join_nested_strings(src)
 end
 
 def find_string(src)
+  message = ""
   index = 0
   while index < src.count do
     if src[index].is_a? String
       puts src[index]
+      message += (src[index] + " ")
     end 
     index+=1
   end
+  message
 end
