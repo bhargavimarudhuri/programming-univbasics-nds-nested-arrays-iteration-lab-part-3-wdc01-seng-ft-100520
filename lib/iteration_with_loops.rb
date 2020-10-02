@@ -14,7 +14,7 @@ def find_string(src)
   while index < src.count do
     if src[index].is_a? String
       puts src[index]
-      index+=1
     end 
+    index+=1
   end
 end
