@@ -8,7 +8,7 @@ end
 def find_string(src)
   index = 0
   while index < src.count do
-    if src[count].class == string
+    if src[count].is_a? String
       puts src[index]
       index+=1
     end 
