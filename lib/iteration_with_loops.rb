@@ -6,9 +6,9 @@ def join_nested_strings(src)
   message = ""
   while index < src.count do
     message += find_string(src[index])
-    puts message
     index+=1
   end
+  puts message
   message
 end
 
