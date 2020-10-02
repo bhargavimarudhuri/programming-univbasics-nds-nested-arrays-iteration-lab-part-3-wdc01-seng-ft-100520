@@ -4,7 +4,8 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   index = 0
   while index < src.count do
-    find_string(src[index])
+    message = find_string(src[index])
+    puts message
     index+=1
   end
 end
@@ -14,7 +15,7 @@ def find_string(src)
   index = 0
   while index < src.count do
     if src[index].is_a? String
-      puts src[index]
+      #puts src[index]
       message += (src[index] + " ")
     end 
     index+=1
