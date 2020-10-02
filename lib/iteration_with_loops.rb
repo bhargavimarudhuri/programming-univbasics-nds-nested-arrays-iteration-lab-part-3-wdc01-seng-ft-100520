@@ -9,6 +9,7 @@ def join_nested_strings(src)
     puts message
     index+=1
   end
+  message
 end
 
 def find_string(src)
